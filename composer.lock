@@ -1087,7 +1087,7 @@
                 "shasum": ""
             },
             "require": {
-                "php": "^7.2.5 || ^8.0",
+                "php": "^7.2.5 || ^8.2",
                 "symfony/polyfill-php80": "^1.24"
             },
             "require-dev": {
@@ -1225,7 +1225,7 @@
         },
         {
             "name": "laravel/framework",
-            "version": "v11.33.2",
+            "version": "v11.31",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
