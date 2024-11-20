@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "533ba88958b557e27a7c3fa83ca39cb5",
+    "content-hash": "fe7a991b97efdb7e08be254bc09884c4",
     "packages": [
         {
             "name": "bacon/bacon-qr-code",
@@ -122,7 +122,7 @@
         },
         {
             "name": "carbonphp/carbon-doctrine-types",
-            "version": "3.1",
+            "version": "3.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/CarbonPHP/carbon-doctrine-types.git",
@@ -9337,7 +9337,7 @@
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
-        "php": "^8.2"
+        "php": "^8.1"
     },
     "platform-dev": [],
     "plugin-api-version": "2.6.0"
