@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "5ff963dc353cdf10e917be88edf431ef",
+    "content-hash": "53d333c6fcd87546527bc37b1682e637",
     "packages": [
         {
             "name": "bacon/bacon-qr-code",
@@ -1087,7 +1087,7 @@
                 "shasum": ""
             },
             "require": {
-                "php": "^7.2.5 || ^8.2",
+                "php": "^7.2.5 || ^8.0",
                 "symfony/polyfill-php80": "^1.24"
             },
             "require-dev": {
@@ -1225,7 +1225,7 @@
         },
         {
             "name": "laravel/framework",
-            "version": "v11.31",
+            "version": "v11.33.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
@@ -9337,7 +9337,7 @@
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
-        "php": "^8.1.2"
+        "php": "^8.3.11"
     },
     "platform-dev": [],
     "plugin-api-version": "2.6.0"
