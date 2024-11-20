@@ -39,6 +39,9 @@ jobs:
         restore-keys: |
           ${{ runner.os }}-php-
 
+    - name: update composer.lock
+      run: composer update
+
     - name: Install dependencies
       run: composer install --prefer-dist
 
