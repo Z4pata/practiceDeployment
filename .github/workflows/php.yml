@@ -21,7 +21,10 @@ jobs:
       run: php -v
 
     - name: Validate composer.json and composer.lock
-      run: composer validate --strict, git diff composer.lock
+      run: composer validate --strict
+
+    - name: Diff composer.lock and .json
+      run: git diff composer.lock
 
     - name: Clear Composer Cache
       run: composer clear-cache
