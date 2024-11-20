@@ -48,7 +48,7 @@ jobs:
       run: composer update
 
     - name: Install dependencies
-      run: composer install --prefer-dist
+      run: composer install --no-dev --prefer-dist --optimize-autoloader
 
     # Add a test script to composer.json, for instance: "test": "vendor/bin/phpunit"
     # Docs: https://getcomposer.org/doc/articles/scripts.md
