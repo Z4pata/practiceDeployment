@@ -25,11 +25,13 @@ jobs:
     - name: Verificar versión de PHP
       run: php -v
 
+    - name: Diff composer.lock and .json
+      run: git diff composer.lock
+
     - name: Validate composer.json and composer.lock
       run: composer validate --strict
 
-    - name: Diff composer.lock and .json
-      run: git diff composer.lock
+    
 
     - name: Clear Composer Cache
       run: composer clear-cache
